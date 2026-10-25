@@ -12,9 +12,9 @@ class CalculatorTests(TestCase):
     def test_supported_operations(self):
         cases = [
             ("add", "7"),
-            ("subtract", "1"),
+            ("subtract", "-1"),
             ("multiply", "12"),
-            ("divide", "1.5"),
+            ("divide", "0.75"),
         ]
 
         for operation, expected in cases:
